@@ -1,11 +1,12 @@
-Pure Function As An Object (PFAAO) Pattern Demonstration
-========================================================
+OO rewrite of a "function" object anti-pattern
+==============================================
 
-This is a tiny project to demonstrate the PFAAO pattern.
-It converts a JSON document to an XML document.
-The original PFAAO article is here:
+Demonstration of object-oriented programming vs the "function"
+objects as described by:
 
 <http://www.tomdalling.com/blog/ruby/pure-function-as-an-object-PFAAO-pattern/>
+
+Should work the same as the original code but more object-oriented.
 
 
 Running The Code
@@ -31,7 +32,8 @@ The `input.json` data set comes from JSON Studio website:
 
 <http://jsonstudio.com/resources/>
 
-This pattern is inspired and influenced by all of [Rich Hickey's Clojure talks][] and [Casey Muratori's API design talks][].
-
-[Rich Hickey's Clojure talks]: http://www.infoq.com/author/Rich-Hickey#Presentations
-[Casey Muratori's API design talks]: http://mollyrocket.com/casey/stream_0028.html
+Not meant for any offense against individuals promoting this
+"object" functions like Tom (the original author before my
+refactor). We are are sharing ideas and I appreciate his
+contribution. Just trying to bring up a counter-point on why
+I think his method is an anti-pattern.
